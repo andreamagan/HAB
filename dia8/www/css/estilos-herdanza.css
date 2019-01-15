@@ -1,0 +1,16 @@
+/* 
+inherit: forzar herdanza
+initial: forza non aplicar ninguna propiedade
+*/
+
+body{
+    color:green;
+}
+
+header nav li:nth-child(1) a{
+    color: inherit;
+}
+
+header nav li:last-child a{
+    all: initial;
+}

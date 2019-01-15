@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formulario de contacto do sitio o mundo hoxe">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+      <header>
+            <h1>O mundo hoxe</h1>
+            <p class="especial">A actualidade de mañá, pero en galego</p>
+
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Novas</a></li>
+                    <li><a href="/galeria.html">Onte en imaxes</a></li>
+                    <li><a href="/multimedia.html">Podcaste e entrevistas</a></li>
+
+                </ul>
+            </nav>
+
+    </header>
+    <section>
+        <h2>Rexistrate na nosa news!</h2>
+        <form method="GET">
+            <fieldset>
+                <legend>Nome e apelidos</legend>
+
+                <ul>
+                    <li>
+                        <label for="nome">Nome:</label>
+                        <input type="text" nome="nome" id="nome" placeholder="Como te chaman">
+                    </li>
+                    <li>
+                        <label for="apelidos">Apelidos</label>
+                        <input type="text" name="apelidos" id="apelidos">
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos persoais</legend>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <label for="password">Contrasinal</label>
+                <input type="password" name="password" id="password">
+
+                <label for="tarxeta">Nº de tarxeta</label>
+                <input type="number" name="tarxeta" id="tarxeta">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Intereses</legend>
+
+                <label for="filias">Que é o che máis che gusta: </label>
+                <select name="filias" id="filias">
+                    <optgroup label="Noticias">
+                        <option value="gatos">Gatos</option>
+                        <option value="cans">Cans</option>
+                        <option value="cotilleos">Cotilleos</option>
+                        <option value="fricadas">Fricadas</option>
+                    </optgroup>
+                    <optgroup label="Pesonaxes">
+                        <option value="politica">Politicos</option>
+                        <option value="famosos">Famoseo</option>
+                        <option value="videoxogos">Videoxogos</option>
+                    </optgroup>
+                </select>
+
+                <label for="fobias">E o que menos che gusta: </label>
+                <select name="fobias" id="fobias">
+                    <optgroup label="Noticias">
+                        <option value="gatos">Gatos</option>
+                        <option value="cans">Cans</option>
+                        <option value="cotilleos">Cotilleos</option>
+                        <option value="fricadas">Fricadas</option>
+                    </optgroup>
+                    <optgroup label="Pesonaxes">
+                        <option value="politica">Politicos</option>
+                        <option value="famosos">Famoseo</option>
+                        <option value="videoxogos">Videoxogos</option>
+                    </optgroup>
+                </select>
+
+            </fieldset>
+            <fieldset>
+
+
+                <p>
+                    Se non te queres perder as nosas chorradas, entreganos a tu alma.
+                </p>
+                <label for="newsletter">Acepto entregar a miña alma de forma voluntaria</label>
+                <input type="checkbox" name="newsletter" id="newsletter" checked required>
+            </fieldset>
+
+            <button type="submit">Estou seguro, pa'diante</button>
+            <button type="reset">Penseino mellor. Borra todo</button>
+
+
+        </form>
+
+
+    </section>
+
+    <footer>
+            <p> (c) Andrea Magan - 2019</p>
+    </footer>
+</body>
+
+</html>

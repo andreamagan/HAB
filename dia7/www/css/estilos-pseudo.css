@@ -1,0 +1,111 @@
+/* Pseudoclases - en funcion del estado 
+Por ejemplo: visited, hover, required, checked,...
+
+*/
+
+a{
+    color:crimson;
+}
+
+a:visited{
+    color:royalblue;
+}
+
+a:hover{
+    font-size:1.2rem;
+}
+
+input[type="checkbox"]{
+    margin-left:1rem;
+}
+
+input[type="checkbox"]:checked{
+    margin-left:0rem;
+}
+
+/* Pseudoclases - por posicion 
+first-child y last-child
+nth.child para el resto de posiciones
+even para los pares
+odd para los impares
+
+consultAr MDN para ver lista completa:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+*/
+
+.colores li{
+    font-size: 2rem;
+}
+
+.colores li:first-child{
+    background: lightblue;
+}
+
+.colores li:last-child{
+    background: lightcoral;
+}
+
+.colores li:nth-child(2){
+    background: lightcyan;
+}
+
+.raias li:nth-child(even){
+    background: lightpink;
+}
+
+.raias li:nth-child(odd){
+    background: lightgreen;
+}
+
+.raias li:not(:first-child){
+   color: royalblue;
+}
+
+.raias li:not(.guai){
+    text-decoration: underline;
+}
+
+/* Pseudo elementos
+Permitennos referirnos a partes de elementos.
+ejemplo
+
+Los pseudoelementos se seleccionan con ::pseudoelemento
+*/
+
+#elementos h2{
+    color:royalblue;
+}
+
+#elementos h2::first-letter{
+    font-size: 3rem;
+    color: crimson;
+}
+
+#elementos p{
+    font-family: sans-serif;
+}
+
+#elementos p::first-line{
+    font-size: 2rem;
+    color:lightblue;
+}
+
+#elementos p::selection{
+    background: #00ffff;
+    color: #e72080;
+}
+
+
+/* Pseudo elementos 
+::after para crear un contenido despues
+::before para crear un contenido antes
+*/
+
+.colores a[href^="http"]::after{
+    content:" 👌"; 
+}
+
+/* selectores por , afecta a todos
+selectores con espacios afecta a todos los que están dentro
+selectores con > hijos directos
+*/

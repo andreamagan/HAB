@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de contacto</h1>
+
+    </header>
+    <section>
+        <form action="/formularios.html" method="GET">
+            <fieldset>
+                <legend>Nome e apelidos</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" value="Berto" readonly>
+
+                <label for="apelidos">Apelidos</label>
+                <input type="text" name="apelidos" id="apelidos" value="Yañez" disabled>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos persoais</legend>
+
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="Aqui a idade" min="18" mx="120" value="18">
+
+                <label for="lugar">Lugar de nacemento:</label>
+                <input type="text" name="lugar" id="lugar" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="@">
+
+                <label for="comida">Comida favorita</label>
+                <select name="comida" id="comida">
+                    <optgroup label="Vexetais">
+                        <option value="pementos">Pementos</option>
+                        <option value="patacas" selected>Patacas</option>
+                        <option value="repolo">Repolo</option>
+                    </optgroup>
+                    <option value="xarda">Xarda</option>
+                    <option value="atun">Atún</option>
+
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Contrasinal superseguro</legend>
+                <label for="password">Contrasinal</label>
+                <input type="password" name="password" id="password">
+                <label for="newsletter">Quero recibir as news</label>
+                <input type="checkbox" name="newsletter" id="newsletter" checked>
+            </fieldset>
+
+            <fieldset>
+                <legend>Provincia</legend>
+                <ul>
+                    <li>
+                        <label for="lugo">Lugo</label>
+                        <input type="radio" name="provincia" value="lugo" id="lugo">
+                    </li>
+                    <li>
+                        <label for="coruna">Coruña</label>
+                        <input type="radio" name="provincia" value="coruna" id="coruna">
+                    </li>
+                    <li>
+                        <label for="pontevedra">Pontevedra</label>
+                        <input type="radio" name="provincia" value="pontevedra" id="pontevedra" checked>
+                    </li>
+                    <li>
+                        <label for="coruna">Ourense</label>
+                        <input type="radio" name="provincia" value="ourense" id="Ourense">
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>As miñas movidas</legend>
+                <textarea name="prosa" id="prosa" cols="80" rows="20"></textarea>
+                <p>
+                    <label for="foto">Sube a tua foto</label>
+                    <input type="file" name="foto" id="foto">
+                </p>
+                <p>
+                    <label for="gasolina">Canta gasolina ten o teu coche</label>
+                    <input type="range" name="gasolina" id="gasolina" min="10" max="100" step="10" value="50">
+                </p>
+                <p>
+                    <label for="cumpleanos">Cando é o teu cumpleanos</label>
+                    <input type="date" name="cumpleanos" id="cumpleanos">
+                </p>
+                <p>
+                    <label for="cor">Cor</label>
+                    <input type="color" name="cor" id="cor">
+                </p>
+                <input type="hidden" name="oculto" value="123">
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablece por defecto</button>
+            <button type="button">Non fai nada</button>
+        </form>
+    </section>
+</body>
+
+</html>

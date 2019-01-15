@@ -1,0 +1,35 @@
+#outer a {
+  background-color: red;
+}
+/* 101 */
+
+#outer #inner a {
+  background-color: blue;
+}
+/* 201 */
+
+#outer div ul li a {
+  color: yellow;
+}
+/* 104 */
+
+#outer div ul .nav a {
+  color: white;
+}
+
+/* 113 */
+
+div div li:nth-child(2) a:hover {
+  border: 10px solid black;
+}
+/* 24 */
+
+div li:nth-child(2) a:hover {
+  border: 10px dashed black;
+}
+/* 23 */
+
+div div .nav:nth-child(2) a:hover {
+  border: 10px double black;
+}
+/* 33 */

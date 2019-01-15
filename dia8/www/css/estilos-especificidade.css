@@ -1,0 +1,28 @@
+
+/* 
+important  no se debe usar
+
+Especificidade: etiqueta (etiqueta style="") < clase < ID
+    ¿Cómo se calcula? -> por cada tag o pseudoelementos +1
+                    -> por cada class o pseudoclass +10
+                    -> por cada ID +100
+
+Orden: A misma especifidade, prevalece a última regra
+*/
+
+header h1{
+    background:red;
+    color: white;
+}
+
+.titulo {
+    background:blue;
+}
+
+.principal{
+    background:green;
+}
+
+#cabeceira-principal{
+    background: lightblue;
+}

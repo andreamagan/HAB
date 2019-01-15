@@ -1,0 +1,74 @@
+/* Nome de etiqueta 
+
+Para calquera tipo de etiqueta e aplicaráse a todolos elementos de ese tipo de etiqueta
+
+Ex: h1, p, section..... 
+
+A folla de estilo do navegador pode afectar ao estilo. Se non queremos que se aplique podemos p
+
+*/
+
+h1 {
+    color: yellow;
+    background: rebeccapurple;
+}
+
+p.parrafo{
+    background: lightgray
+}
+
+.verde {
+    color: green;
+}
+
+#interior{
+    background: green;
+}
+
+
+
+/* Seleccionar por atributo [] 
+data-texto nos permite crear atributos personalizados
+Si le ponemos un valor, podremos seleccionar ese atributo [data-nombre="valor"]
+~= aplica el estilo a los que contengan el valor "x"
+^= aplica el estilo a los que empiecen por: "x"
+$= aplica el estilo a los que termine por: "x"
+*= aplica el estilo a los que contengan: "x"
+ *-*-*- Mirar otros atributos - MDN y referencia en el GitHub dia 7 -*-*-*
+*/
+
+blockquote[lang]{
+background: blue;
+}
+
+[data-hackabos=]{
+    text-decoration: underline;
+}
+
+[data-hackabos="3"]{
+    color:red;
+}
+
+[data-etiquetas~="css"]{
+    font-size: 2rem;
+}
+
+li[data-nome^=Ber]{
+    color:pink;
+}
+
+li[data-nome$="to"]{
+    text-decoration: overline;
+}
+
+li[data-nome*="rt"]{
+    background: lightblue;
+}
+
+
+a[href^=https]{
+    color:green;
+    font-weight: bold;
+}
+
+

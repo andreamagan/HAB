@@ -1,0 +1,62 @@
+/* 
+    Unidades absolutas (iguales en todas las pantallas): px, q cm; 
+    Unidades relativas (relativo al tamaño del contenedor) %, em, rem (tamaño relativo al del elemento raíz html. Si queremos cambiar el tamaño relativo tenemos que modificar los valores del html.
+    viewport width (vw) y viewport height (vh) tienen relación con el relativo tamaño de la parte visible del navegador. 
+    0 y algunos otros valores como line-heigt no lleva unidades;
+*/
+
+/* las etiquetas @import van al principio de la páginas */
+@import url('https://fonts.googleapis.com/css?family=Coiny|Dosis:700|Roboto+Slab');
+
+@font-face{
+    font-family:"PiqueMyInterest";
+    src: url(/fonts/PiqueMyInterest.ttf);
+}
+
+header {
+    background: lightblue;
+    padding:30px;
+    font-size:40px;
+    color:white;
+}
+
+body header{
+    font-family: 'Roboto Slab', serif;
+    background:lightseagreen;
+    width: 80%
+}
+
+body header h1{
+    font-family: "PiqueMyInterest";
+    font-style: normal;
+}
+
+body header ul{
+    width: 100vw;
+    background: lightpink;
+}
+
+header li{
+    font-size:2rem;
+    width: 50vw;
+
+}
+
+/* 
+Estilos de fonte
+    color: #ff00ff, rgb, rgba
+    font-family: serif, sans serif, monospace, fantasy, cursive
+    font-size:
+    font-style: normal, bold, italic, oblique, inherit, 
+    font-weight: 100-900; bold, light
+    text-transform: uppercarse, lowercarse, capitalize, 
+    text-decoration: underline, overline, none;
+    text-shado: dh, dh, rgausiano, color
+    
+
+Estilo de posición
+    text-aling: center, left, right
+    line-height: 1.2 (por defecto)
+    word-spacing: 
+    letter-spacing:
+*/
