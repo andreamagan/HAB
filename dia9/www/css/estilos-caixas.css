@@ -1,0 +1,83 @@
+/* Para padding y margin 
+propiedad: valor - afecta a todos los lados por igual
+propiedad: v1 (top, bot) v2 (left-right) 
+propiedad: v1 (top) v2(left-right) v3(bot)
+propiedad: v1(top) v2(right) v3(bot) v4(left) -  */
+
+/* Si el dos elementos colindantes tienen margins distintos no se suman. Margin Collapse*/
+
+/* El tamaño de una caja es la suma de weight + pading + border */
+
+
+.un {
+    background: #00ff99;
+}
+
+.dous{
+    background: #008293;
+    width: auto;
+    height:auto;
+    padding: 2rem 6rem 2rem 0rem;
+}
+
+.dous span{
+    background: lightpink;
+}
+
+header {
+    background: lightpink;
+    border: 20px solid darkcyan; 
+}
+
+header h1{
+    background: lightblue;
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+.tres {
+    background: lightpink;
+    width:50%;
+    height: 300px;
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.catro{
+    display: block;
+
+}
+
+.cinco strong{
+    background: #00ff99;
+    border: 2px solid #ff99d8;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+}
+
+
+ul li a{
+    background: #ff99d8;
+    color:white;
+    padding: 5px;
+    margin: 4px;
+    display: inline-block;
+}
+
+.caixa {
+    padding: 2rem;
+    margin: 2rem;
+    height: 300px;
+    background-color: #00ff99;
+    background-image: url(/media/kitty.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
+
+
+
