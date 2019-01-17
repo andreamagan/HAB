@@ -1,0 +1,17 @@
+body{
+    margin: 0; 
+}
+.container{
+    margin: 0;
+    display: flex;
+    background: grey;
+    height: 100vh;
+    flex-direction: row;
+}
+
+.child{
+    background: pink;
+    margin:1rem;
+    padding: 1rem;
+    list-style: none;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0; 
+}
+.container{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+   }
+
+.child{
+    padding: 2rem;
+    align-content: center;
+}
+
+.nav{
+    background: pink;
+    margin: 0;
+
+}
+
+.nav li{
+    color:white;
+    background: darkmagenta;
+    list-style-type: none;
+    margin-bottom:2rem;
+    padding: 2rem;
+    
+}
+
+.article h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+}
