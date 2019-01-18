@@ -1,0 +1,51 @@
+section{
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    height: 5000px;
+}
+
+section p{
+    border-width: 5px;
+    border-style: solid;
+    padding:2rem;
+    margin: 0;
+    position:relative;
+}
+
+
+p.uno{
+    background: rgb(67, 67, 196);
+    border-color: lightblue;
+    position: relative;
+    top: 450px;
+    z-index: 2;
+
+}
+
+p.dos{
+    background: pink;
+    border-color: lightcoral;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 0;
+}
+
+p.tres{
+    background: rgb(40, 187, 40);
+    border-color: lightgreen;
+    position: fixed;
+    bottom:0;
+    left:5px;
+    right: 5px;
+}
+
+
+@media (max-width:600px){
+    p.dos{
+        background: grey;
+    }
+}

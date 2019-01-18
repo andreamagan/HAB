@@ -1,0 +1,72 @@
+
+body{
+    margin:0;
+    background: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.container{
+
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+
+
+}
+
+.container h1{
+    font-size: 3rem;
+    align-self: center;
+    letter-spacing: -2px;
+    margin: 1rem 0;
+}
+
+.container p{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+.container nav{
+
+}
+
+.container nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding:1rem 3rem; 
+ 
+}
+
+.container nav ul a{
+    background: aquamarine;        
+    }
+
+.container nav ul li.reciclaje a{
+    background: orange;      
+    }
+#reciclaje a::before{
+    /* content: url(../img/recycle.png); */
+
+
+    
+}
+
+.container p.small{
+    margin-top:2rem;
+    font-size:14px;
+}
