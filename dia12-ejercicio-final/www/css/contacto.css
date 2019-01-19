@@ -156,6 +156,7 @@ main aside #facebook:before{
 .direccion > div{
     display: flex;
     flex-direction: row-reverse;
+    
     justify-content: space-around;
 
 }
