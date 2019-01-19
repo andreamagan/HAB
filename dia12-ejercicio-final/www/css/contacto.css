@@ -1,0 +1,175 @@
+@import "normalize.css";
+@import "generic.css";
+
+.formulario{
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.formulario form{
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+
+.formulario form label{
+    font-style: bold;
+    margin:  0.5 0 0.5rem 0;
+}
+.formulario{
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.formulario form{
+    display:flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+
+.formulario form label{
+    font-style: bold;
+    margin:  0.5 0 0.5rem 0;
+}
+
+
+.formulario form {
+    margin:  0 0 0.5rem 0;
+}
+
+.formulario button{
+    border: none;
+    margin-top: 10px;
+}
+
+
+main aside{
+    border: 2px solid rgb(253, 21, 98);;
+    border-radius: 10px;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+
+main aside p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:  rgb(253, 21, 98);
+    padding: 0 1.4rem;
+    margin: 0.8rem;
+}
+
+main aside #telefono:before{
+    margin-right: 5px;
+    content: url(../img/phone.png);
+}
+main aside #facebook:before{
+    margin-right: 5px;
+    content: url(../img/facebook.png);
+}
+
+
+.direccion address p{
+    font-style: italic;
+    margin: 1rem  0;
+    
+}
+
+
+.direccion iframe{
+    width: 100%; 
+    height:350px;
+    border:0;
+}
+
+@media (min-width:800px) {
+
+.direccion > div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.direccion div address{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+
+}
+
+
+
+.formulario form {
+    margin:  0 0 0.5rem 0;
+}
+
+.formulario button{
+    border: none;
+    margin-top: 10px;
+}
+
+
+main aside{
+    border: 2px solid rgb(253, 21, 98);;
+    border-radius: 10px;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+
+main aside p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:  rgb(253, 21, 98);
+    padding: 0 1.4rem;
+    margin: 0.8rem;
+}
+
+main aside #telefono:before{
+    margin-right: 5px;
+    content: url(../img/phone.png);
+}
+main aside #facebook:before{
+    margin-right: 5px;
+    content: url(../img/facebook.png);
+}
+
+
+.direccion address p{
+    font-style: italic;
+    margin: 1rem  0;
+    
+}
+
+
+.direccion iframe{
+    width: 100%; 
+    height:350px;
+    border:0;
+}
+
+@media (min-width:800px) {
+
+.direccion > div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.direccion div address{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+
+.contacto{
+    display: flex;
+
+}
+
+}

@@ -1,0 +1,52 @@
+@import 'normalize.css';
+@import 'generic.css';
+
+.container{
+    height: 100vh;
+}
+
+.productos article{
+    display:flex;
+    flex-direction: row-reverse; 
+    margin-bottom: 10px;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.productos article img{
+    width: 20% ;
+    object-fit:cover;
+    margin: 0 20px 0 10px;
+}
+
+.productos h1{
+    margin: 0;
+}
+.productos article p{
+    margin-bottom: 1.5rem;
+
+}
+
+.productos article a.boton{
+    display: inline-block;
+}
+
+@media (min-width: 800px) {
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem;
+    }
+
+.productos article{
+    width: 50%;
+    }
+
+
+
+}
